@@ -15,7 +15,8 @@ body{
 
 @media (max-width: 640px) {
   html{
-    background-size: 100% 100%;
+    background-size: auto 100%;
+    background-position: center;
   }
   body{
     display: block;
@@ -24,7 +25,8 @@ body{
 
 @media (max-width: 412px) {
   html{
-    background-size: 100% 100%;
+    background-size: auto 100%;
+    background-position: center;
   }
   body{
     display: block;
