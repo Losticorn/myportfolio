@@ -36,7 +36,6 @@
 @media (max-width: 412px) {
   .navigation-bar-container{
     justify-content: center;
-    background-color: pink;
     width: 400px;
   }
   .navigation-bar-container ul{
