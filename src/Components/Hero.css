@@ -53,3 +53,13 @@
   }
 }
 
+@media (max-width: 412px) {
+  .hero-section{
+    margin: 0;
+    padding: 0;
+  }
+  .centered-text{
+    width: 400px;
+  }
+}
+
