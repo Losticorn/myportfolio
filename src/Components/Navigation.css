@@ -36,14 +36,18 @@
 @media (max-width: 412px) {
   .navigation-bar-container{
     justify-content: center;
+    background-color: pink;
+    width: 400px;
   }
   .navigation-bar-container ul{
     display: flex;
     margin-right: 0;
     margin-left: 0;
     padding: 0;
+    background-color: pink;
   }
   .navigation-bar-container li{
     font-size: 16px;
+    margin: 0;
   }
 }
