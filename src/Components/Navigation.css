@@ -36,7 +36,7 @@
 @media (max-width: 412px) {
   .navigation-bar-container{
     justify-content: center;
-    width: 400px;
+    width: 418px;
   }
   .navigation-bar-container ul{
     display: flex;
