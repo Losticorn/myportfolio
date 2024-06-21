@@ -20,9 +20,8 @@ function Projects() {
           <img src="openlayers-demo.png"></img>
           <h2>Map demonstration</h2>
           <p>
-            This small project was part of my search for a job. This
-            demonstration was part of my job application. This project tought me
-            how to work with OpenLayers documentation and greatly challenged my
+            This project was a part of my job application. It taught me how to
+            work with OpenLayers documentation and significantly challenged my
             knowledge of JavaScript.
           </p>
         </div>
