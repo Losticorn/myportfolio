@@ -21,3 +21,12 @@ body{
     display: block;
   }
 }
+
+@media (max-width: 400px) {
+  html{
+    background-size: 100% 100%;
+  }
+  body{
+    display: block;
+  }
+}

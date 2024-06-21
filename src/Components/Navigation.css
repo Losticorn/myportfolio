@@ -32,3 +32,18 @@
     margin-right: 0;
   }
 }
+
+@media (max-width: 400px) {
+  .navigation-bar-container{
+    justify-content: center;
+  }
+  .navigation-bar-container ul{
+    display: flex;
+    margin-right: 0;
+    margin-left: 0;
+    padding: 0;
+  }
+  .navigation-bar-container li{
+    font-size: 16px;
+  }
+}

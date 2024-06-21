@@ -76,3 +76,22 @@
     width: 500px;
   }
 }
+
+@media(max-width: 400px){
+  .projects-section h1{
+    width: 400px;
+    font-size: 30px;
+  }
+  .projects-container{
+    width: 400px;
+  }
+  .projects-container h2{
+    font-size: 20px;
+  }
+  .projects-container p{
+    font-size: 17px;
+  }
+  .projects-container img{
+    width: 400px;
+  }
+}
