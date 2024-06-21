@@ -1,0 +1,23 @@
+html{
+  background-color: rgb(29, 29, 29);
+  color: white;
+  background-image: url('/painting-mountain-lake-with-mountain-background.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  background-blend-mode: lighten;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+@media (max-width: 640px) {
+  html{
+    background-size: 100% 100%;
+  }
+  body{
+    display: block;
+  }
+}
