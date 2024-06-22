@@ -18,7 +18,7 @@ function Projects() {
         </div>
         <div className="project">
           <img src="openlayers-demo.png"></img>
-          <h2>Map demonstration</h2>
+          <h2>Map demonstration (work in progress)</h2>
           <p>
             This project was a part of my job application. It taught me how to
             work with OpenLayers documentation and significantly challenged my
