@@ -1,5 +1,5 @@
 import "./About.css";
-import "../Scripts/ScrollAnimation.jsx";
+import "../Scripts/ScrollAnimation.js";
 
 function About() {
   return (

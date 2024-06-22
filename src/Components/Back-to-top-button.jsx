@@ -1,6 +1,6 @@
 import "./Back-to-top-button.css";
 import { PiArrowSquareUpLight } from "react-icons/pi";
-import "../Scripts/ShowBackToTopBtn.jsx";
+import "../Scripts/ShowBackToTopBtn.js";
 
 function BackToTopButton() {
   return (
