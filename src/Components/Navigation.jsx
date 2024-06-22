@@ -4,11 +4,17 @@ import "./Navigation.css";
 function NavigationBar() {
   return (
     <>
-      <div className="navigation-bar-container">
+      <div id="navigation-bar" className="navigation-bar-container">
         <ul>
-          <li>ABOUT</li>
-          <li>PORTFOLIO</li>
-          <li>CONTACT</li>
+          <a href="#about">
+            <li>ABOUT</li>
+          </a>
+          <a href="#portfolio">
+            <li>POTRFOLIO</li>
+          </a>
+          <a href="#contact">
+            <li>CONTACT</li>
+          </a>
         </ul>
       </div>
     </>

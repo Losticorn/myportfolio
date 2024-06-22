@@ -18,6 +18,10 @@
   font-family: "Crimson Text", serif;
 }
 
+.navigation-bar-container a{
+  text-decoration: none;
+}
+
 .navigation-bar-container li:hover{
   text-decoration: underline;
   cursor: pointer;

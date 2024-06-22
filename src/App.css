@@ -1,5 +1,3 @@
-
-
 html{
   background-color: rgb(29, 29, 29);
   color: white;
@@ -8,6 +6,7 @@ html{
   background-attachment: fixed;
   background-size: 100% 100%;
   background-blend-mode: lighten;
+  scroll-behavior: smooth;
 }
 
 body{
@@ -23,6 +22,9 @@ body{
   body{
     display: block;
   }
+  #backToTopBtn{
+    display: none;
+  }
 }
 
 @media (max-width: 412px) {
@@ -32,5 +34,8 @@ body{
   }
   body{
     display: block;
+  }
+  #backToTopBtn{
+    display: none;
   }
 }

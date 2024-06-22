@@ -5,6 +5,7 @@ import About from "./Components/About.jsx";
 import Projects from "./Components/Projects.jsx";
 import Footer from "./Components/Footer.jsx";
 import Contact from "./Components/Contact.jsx";
+import BackToTopButton from "./Components/Back-to-top-button.jsx";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Projects></Projects>
       <Contact></Contact>
       <Footer></Footer>
+      <BackToTopButton></BackToTopButton>
     </>
   );
 }
