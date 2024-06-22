@@ -6,7 +6,7 @@ function BackToTopButton() {
   return (
     <button id="backToTopBtn">
       <a href="#navigation-bar">
-        <PiArrowSquareUpLight size={60} color="white" />
+        <PiArrowSquareUpLight size={45} color="white" />
       </a>
     </button>
   );
