@@ -1,5 +1,4 @@
 html{
-  background-color: rgb(29, 29, 29);
   color: white;
   background-image: url('/painting-mountain-lake-with-mountain-background.jpg');
   background-repeat: no-repeat;
@@ -12,6 +11,7 @@ html{
 body{
   margin: 0;
   padding: 0;
+  background-color: rgba(0, 0, 0, 0.548);
 }
 
 @media (max-width: 640px) {
