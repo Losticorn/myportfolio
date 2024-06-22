@@ -10,7 +10,9 @@ function Hero() {
         <div className="centered-text">
           <h1>Need a web?</h1>
           <h1>I will do it for you.</h1>
-          <button className="quote-btn">GET A QUOTE</button>
+          <a href="#contact">
+            <button className="quote-btn">GET A QUOTE</button>
+          </a>
         </div>
       </section>
     </>

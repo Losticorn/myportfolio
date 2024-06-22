@@ -38,7 +38,10 @@
   border-bottom-left-radius: 25px;
   border-bottom-right-radius: 25px;
   color: white;
+  text-decoration: none;
+  width: 500px;
 }
+
 
 .quote-btn:hover{
   background-color: rgba(0, 0, 0, 0.548);
