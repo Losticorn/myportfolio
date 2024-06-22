@@ -1,10 +1,12 @@
-window.onscroll = function() {scrollFunction()};
+window.onscroll = function () {
+  scrollFunction();
+};
 
 function scrollFunction() {
   if (window.innerWidth <= 640) {
     return;
   }
-  
+
   const backToTopBtn = document.getElementById("backToTopBtn");
   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
     backToTopBtn.classList.add("show");
@@ -12,4 +14,3 @@ function scrollFunction() {
     backToTopBtn.classList.remove("show");
   }
 }
-
