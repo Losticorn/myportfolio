@@ -1,12 +1,11 @@
 import "./App.css";
 import React from "react";
-import Hero from "./Components/Hero.jsx";
-import About from "./Components/About.jsx";
-import Projects from "./Components/Projects.jsx";
-import Footer from "./Components/Footer.jsx";
-import Contact from "./Components/Contact.jsx";
-import BackToTopButton from "./Components/Back-to-top-button.jsx";
-import SkillAnimation from "./Components/SkillsAnimation.jsx";
+import Hero from "./components/Hero.jsx";
+import About from "./components/About.jsx";
+import Projects from "./components/Projects.jsx";
+import Footer from "./components/Footer.jsx";
+import Contact from "./components/Contact.jsx";
+import BackToTopButton from "./components/Back-to-top-button.jsx";
 
 function App() {
   return (
