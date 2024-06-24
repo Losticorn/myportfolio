@@ -31,13 +31,13 @@
   font-family: "Crimson Text", serif;
 }
 
-@media(max-width: 640px){
+@media(min-width: 640px){
   .contact-text{
     width: 500px;
   }
 }
 
-@media(max-width: 412px){
+@media (min-width: 412px) and (max-width: 640px){
   .contact-text{
     width: 400px;
   }

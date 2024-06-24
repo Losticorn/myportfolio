@@ -29,7 +29,7 @@
   cursor: pointer;
 }
 
-@media (max-width: 640px) {
+@media (min-width: 640px) {
   .navigation-bar-container{
     justify-content: center;
   }
@@ -39,10 +39,9 @@
   }
 }
 
-@media (max-width: 412px) {
+@media (min-width: 412px) and (max-width: 640px){
   .navigation-bar-container{
     justify-content: center;
-    width: 412px;
   }
   .navigation-bar-container ul{
     display: flex;

@@ -64,7 +64,7 @@
   font-family: "Crimson Text", serif;
 }
 
-@media(max-width: 640px){
+@media(min-width: 640px){
   .projects-section h1{
     width: 500px;
   }
@@ -76,7 +76,7 @@
   }
 }
 
-@media(max-width: 412px){
+@media (min-width: 412px) and (max-width: 640px){
   .projects-section h1{
     width: 400px;
     font-size: 30px;

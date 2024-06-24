@@ -48,14 +48,14 @@
   cursor: pointer;
 }
 
-@media (max-width: 640px) {
+@media (min-width: 640px) {
   .hero-section{
     margin: 0;
     padding: 0;
   }
 }
 
-@media (max-width: 412px) {
+@media (min-width: 412px) and (max-width: 640px){
   .hero-section{
     margin: 0;
     padding: 0;

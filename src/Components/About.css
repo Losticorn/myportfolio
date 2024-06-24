@@ -127,7 +127,7 @@
   border-top-right-radius: 25px;
 }
 
-@media(max-width: 640px){
+@media(min-width: 640px){
   .skills-text{
     width: 500px;
   }
@@ -159,7 +159,7 @@
   }
 }
 
-@media(max-width: 412px){
+@media (min-width: 412px) and (max-width: 640px){
   .skills-text{
     width: 400px;
   }
