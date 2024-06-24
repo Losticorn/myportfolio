@@ -20,7 +20,8 @@ a.selected{
   filter: saturate(100%);
 }
 
-@media (min-width: 412px) {
+
+@media (min-width: 412px) and (max-width: 640px){
   .btn-container{
     margin-right: 0;
   }
