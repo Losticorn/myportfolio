@@ -127,7 +127,7 @@
   border-top-right-radius: 25px;
 }
 
-@media(min-width: 640px){
+@media(min-width: 640px) and (max-width: 1024px){
   .skills-text{
     width: 500px;
   }
