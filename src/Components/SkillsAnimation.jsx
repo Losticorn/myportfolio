@@ -44,6 +44,9 @@ function SkillAnimation() {
         <div className="logo hidden">
           <img src="Git-Icon-1788C.png"></img>
         </div>
+        <div className="logo hidden">
+          <img src="Wordpress_icon-icons.webp"></img>
+        </div>
       </div>
     </section>
   );
