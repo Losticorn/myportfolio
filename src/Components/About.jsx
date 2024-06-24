@@ -1,4 +1,5 @@
 import "./About.css";
+import SkillAnimation from "./SkillsAnimation";
 
 function About() {
   return (
@@ -17,6 +18,7 @@ function About() {
           </p>
           <img src="https://picsum.photos/400"></img>
         </div>
+        <SkillAnimation></SkillAnimation>
       </section>
     </>
   );

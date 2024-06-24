@@ -56,7 +56,6 @@
 
 .logos{
   display: grid;
-  width: 1000px;
   grid-template-columns: auto auto auto auto auto auto auto auto;
   justify-content: center;
   margin-top: 25px;
@@ -147,6 +146,17 @@
     width: 500px;
     justify-content: center;
   }
+  #section{
+    width: 500px;
+  }
+  #section h1{
+    width: 500px;
+    margin: 14px 0px;
+  }
+  .logos{
+    grid-template-columns: auto auto auto;
+    width: 500px;
+  }
 }
 
 @media(max-width: 412px){
@@ -178,6 +188,17 @@
     grid-template-columns: auto auto;
     width: 400px;
     justify-content: center;
+  }
+  #section{
+    width: 400px;
+  }
+  #section h1{
+    width: 400px;
+    margin: 14px 0px;
+  }
+  .logos{
+    grid-template-columns: auto auto auto;
+    width: 400px;
   }
 }
 

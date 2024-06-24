@@ -13,7 +13,6 @@ function App() {
     <>
       <Hero></Hero>
       <About></About>
-      <SkillAnimation></SkillAnimation>
       <Projects></Projects>
       <Contact></Contact>
       <Footer></Footer>
