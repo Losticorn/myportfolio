@@ -22,7 +22,7 @@ i18n.use(I18nextBrowserLanguageDetector).use(initReactI18next).init(
           about: {
             header1: "O mne",
             header2: "Čo používam pri práci",
-            text: "Zdravím. Volám sa Jaroslav a tvorím webové stránky. Keď nepracujem, tak sa bavím hraním hier alebo trávim čas s mojím psom. Teším sa až sa mi ozvete!",
+            text: "Zdravím. Volám sa Jaroslav a tvorím webové stránky. Keď nepracujem, tak sa bavím hraním hier alebo trávim čas s mojím psom. Teším sa na našu spoluprácu!",
           },
           projects: {
             header1: "Nedávne projekty",
@@ -86,7 +86,7 @@ i18n.use(I18nextBrowserLanguageDetector).use(initReactI18next).init(
           about: {
             header1: "O mně",
             header2: "Co používám při práci",
-            text: "Ahoj! Jmenuji se Jaroslav a tvořím webové stránky. Když nepracuji, najdete mě buď při hraní videoher, nebo trávím čas se svým psem. Těším se na vaši zprávu!",
+            text: "Ahoj! Jmenuji se Jaroslav a tvořím webové stránky. Když nepracuji, najdete mě buď při hraní videoher, nebo trávím čas se svým psem. Těším se na naši spolupráci!",
           },
           projects: {
             header1: "Nejnovější projekty",
