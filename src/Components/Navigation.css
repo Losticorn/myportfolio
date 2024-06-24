@@ -1,25 +1,27 @@
 .navigation-bar-container{
   background-color: rgba(0, 0, 0, 0.548);
   display: flex;
-  justify-content: end;
+  justify-content:end ;
 }
 
 .navigation-bar-container ul{
   display: flex;
-  margin-right: 350px;
+  align-items: center;
+  margin-right: 200px;
 }
 
 .navigation-bar-container li{
   font-size: 23px;
   list-style: none;
   color: white;
-  padding: 0px 10px;
-  margin: 0px 20px;
   font-family: "Crimson Text", serif;
 }
 
 .navigation-bar-container a{
   text-decoration: none;
+  padding: 0px 5px;
+  margin-right: 20px;
+  text-align: center;
 }
 
 .navigation-bar-container li:hover{

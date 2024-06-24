@@ -1,21 +1,18 @@
 import "./About.css";
 import SkillAnimation from "./SkillsAnimation";
+import { useTranslation } from "react-i18next";
 
 function About() {
+  const { t } = useTranslation();
+
   return (
     <>
       <section id="about" className="about-section">
         <div className="skills-text">
-          <h1>About me</h1>
+          <h1>{t("about.header1")}</h1>
         </div>
         <div className="about-me">
-          <p>
-            Hello there!<br></br>
-            <br></br>My name is Jaroslav, and I create websites. When I'm not
-            working, you'll find me either playing video games or spending time
-            with my dog. <br></br>
-            <br></br>Cheers!
-          </p>
+          <p>{t("about.text")}</p>
           <img src="https://picsum.photos/400"></img>
         </div>
         <SkillAnimation></SkillAnimation>

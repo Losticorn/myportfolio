@@ -1,7 +1,10 @@
 import "./About.css";
 import { useEffect, useRef } from "react";
+import { useTranslation } from "react-i18next";
 
 function SkillAnimation() {
+  const { t } = useTranslation();
+
   const skillRef = useRef();
   useEffect(() => {
     const Observer = new IntersectionObserver((entries) => {
@@ -18,7 +21,7 @@ function SkillAnimation() {
 
   return (
     <section ref={skillRef} id="section" className="hidden">
-      <h1>What I use</h1>
+      <h1>{t("about.header2")}</h1>
       <div className="logos">
         <div className="logo hidden">
           <img src="/free-html-5-1-1175208.webp"></img>
