@@ -79,8 +79,8 @@ i18n.use(I18nextBrowserLanguageDetector).use(initReactI18next).init(
             nav3: "KONTAKT",
           },
           hero: {
-            line1: "Potřebuje webovku?",
-            line2: "Já Vám jí vytvořím!",
+            line1: "Potřebujete webovku?",
+            line2: "Udělám ji pro Vás!",
             btn: "Kontaktujte mně!",
           },
           about: {
