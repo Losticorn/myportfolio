@@ -1,6 +1,6 @@
 import React from "react";
-import NavigationBar from "./Navigation.jsx";
 import "./Hero.css";
+import NavigationBar from "./Navigation.jsx";
 import { useTranslation } from "react-i18next";
 
 function Hero() {
