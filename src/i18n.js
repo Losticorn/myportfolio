@@ -11,7 +11,7 @@ i18n.use(I18nextBrowserLanguageDetector).use(initReactI18next).init(
         translation:{
           navigation: {
             nav1: "O MNE",
-            nav2: "PORTFÓLIO",
+            nav2: "PROJEKTY",
             nav3: "KONTAKT",
           },
           hero: {
@@ -33,9 +33,18 @@ i18n.use(I18nextBrowserLanguageDetector).use(initReactI18next).init(
           },
           contact: {
             header: "Kontaktné informácie",
-            line1: "Meno: Jaroslav Fiľo",
-            line2: "E-mail: jaroslavfilo95@gmail.com",
-            line3: "Telefónne číslo: +420 777 729 301",
+            line1: "Jaroslav Fiľo",
+            line2: "jaroslavfilo95@gmail.com",
+            line3: "(+420) 777 729 301",
+          },
+          form: {
+            label1: "Meno",
+            placeholder1: "Vaše meno",
+            label2: "E-mail",
+            placeholder2: "Váš e-mail",
+            message: "Správa",
+            placeholder3: "Vaša správa",
+            send: "Odoslať",
           },
         }
       },
@@ -43,7 +52,7 @@ i18n.use(I18nextBrowserLanguageDetector).use(initReactI18next).init(
         translation:{
           navigation: {
             nav1: "ABOUT",
-            nav2: "PORTFOLIO",
+            nav2: "PROJECTS",
             nav3: "CONTACT",
           },
           hero: {
@@ -60,14 +69,23 @@ i18n.use(I18nextBrowserLanguageDetector).use(initReactI18next).init(
             header1: "Latest projects",
             header2: "Guild Page",
             header3: "Map demonstration (work in progress)",
-            text1: "My very first project for my online gaming friends. First version of page was made in pure HTML/CSS, but later on I reworked it in ReactJS. I keep working on this page to this day.",
+            text1: "My very first project for my online gaming friends. First version of the page was made in pure HTML/CSS, but later on I reworked it in ReactJS. I keep working on this page to this day.",
             text2: "This project was a part of my job application. It taught me how to work with OpenLayers documentation and significantly challenged my knowledge of JavaScript.",
           },
           contact: {
             header: "Contact information",
-            line1: "Name: Jaroslav Fiľo",
-            line2: "E-mail: jaroslavfilo95@gmail.com",
-            line3: "Phone number: +420 777 729 301",
+            line1: "Jaroslav Fiľo",
+            line2: "jaroslavfilo95@gmail.com",
+            line3: "(+420) 777 729 301",
+          },
+          form: {
+            label1: "Name",
+            placeholder1: "Enter your name",
+            label2: "E-mail",
+            placeholder2: "Enter your e-mail",
+            message: "Message",
+            placeholder3: "Type your message",
+            send: "Send",
           },
         }
       },
@@ -75,7 +93,7 @@ i18n.use(I18nextBrowserLanguageDetector).use(initReactI18next).init(
         translation:{
           navigation: {
             nav1: "O MNĚ",
-            nav2: "PORTFÓLIO",
+            nav2: "PROJEKTY",
             nav3: "KONTAKT",
           },
           hero: {
@@ -97,9 +115,18 @@ i18n.use(I18nextBrowserLanguageDetector).use(initReactI18next).init(
           },
           contact: {
             header: "Kontaktní informace",
-            line1: "Jméno: Jaroslav Fiľo",
-            line2: "E-mail: jaroslavfilo95@gmail.com",
-            line3: "Telefonní číslo: +420 777 729 301",
+            line1: "Jaroslav Fiľo",
+            line2: "jaroslavfilo95@gmail.com",
+            line3: "(+420) 777 729 301",
+          },
+          form: {
+            label1: "Jméno",
+            placeholder1: "Vaše jméno",
+            label2: "E-mail",
+            placeholder2: "Váš e-mail",
+            message: "Zpráva",
+            placeholder3: "Vaše zpráva",
+            send: "Odeslat",
           },
         }
       } 

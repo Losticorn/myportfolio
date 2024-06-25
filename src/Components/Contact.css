@@ -1,44 +1,136 @@
 .contact-section{
   display: flex;
-  flex-direction: column;
-  position: relative;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.548);
+  padding-bottom: 30px;
+}
+
+.contact-area{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 1000px;
+  padding-top: 30px;
 }
 
 .contact-text{
   color: white;
-  width: 1000px;
   border-radius: 25px;
-  margin-top: 10vh;
-  margin-bottom: 5vh;
-  background-color: rgba(0, 0, 0, 0.548);
-  color: white;
   display: flex;
   flex-direction: column;
-  text-align: center;
+  text-align: left;
 }
 
 .contact-text h1{
-  font-size: 50px;
+  font-size: 25px;
   font-family: "Crimson Text", serif;
+  margin: 0;
 }
 
 .contact-text p{
-  font-size: 30px;
+  font-size: 18px;
   margin: 10px 0px;
   font-family: "Crimson Text", serif;
 }
 
+.contact-me-container{
+  width: 400px;
+}
+
+.contact-me-container form{
+  display: flex;
+  flex-direction: column;
+  width: auto;
+}
+
+.contact-me-container input, textarea{
+  padding: 10px;
+  margin: 5px 2px;
+  border: 2px solid white;
+  font-family: "Crimson Text", serif;
+  font-size: 16px;
+  color: white;
+  background-color: transparent;
+}
+
+.contact-me-container label{
+  font-size: 18px;
+  font-family: "Crimson Text", serif;
+}
+
+#submit-btn{
+  color: white;
+  width: fit-content;
+  padding: 10px 70px;
+}
+
+#submit-btn:hover{
+  background-color: white;
+  transition: 0.5s ease;
+  cursor: pointer;
+  color: black;
+}
+
 @media(min-width: 640px) and (max-width: 1024px){
+  .contact-section{
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+}
+  .contact-area{
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0;
+    padding: 30px 0px;
+    width: 500px;
+  }
   .contact-text{
+    width: auto;
+    text-align: center;
+  }
+  .contact-me-container{
+    width: 500px;
+  }
+  .contact-me-container form{
+    align-items: center;
+    margin: 0;
+    padding: 30px 0px;
+  }
+  .contact-me-container input, textarea{
     width: 500px;
   }
 }
 
-@media (min-width: 412px) and (max-width: 640px){
+@media (max-width: 640px) {
+  .contact-section{
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+  }
+  .contact-area{
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0;
+    padding: 30px 0px;
+    width: auto;
+  }
   .contact-text{
+    width: auto;
+    text-align: center;
+  }
+  .contact-me-container form{
+    align-items: center;
+    margin: 0;
+    padding: 30px 0px;
+  }
+  .contact-me-container input, textarea{
     width: 400px;
   }
   .contact-text h1{
@@ -47,5 +139,11 @@
   
   .contact-text p{
     font-size: 20px;
+  }
+}
+
+@media (max-width: 412px) {
+  .contact-me-container input, textarea{
+    width: 300px;
   }
 }
