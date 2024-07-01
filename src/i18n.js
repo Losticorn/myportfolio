@@ -10,6 +10,7 @@ i18n.use(I18nextBrowserLanguageDetector).use(initReactI18next).init(
       sk: {
         translation:{
           navigation: {
+            nav0: "DOMOV",
             nav1: "O MNE",
             nav2: "PROJEKTY",
             nav3: "KONTAKT",
@@ -33,7 +34,7 @@ i18n.use(I18nextBrowserLanguageDetector).use(initReactI18next).init(
           },
           contact: {
             header: "Kontaktné informácie",
-            line1: "Jaroslav Fiľo",
+            line1: "JAROSLAV FIĽO",
             line2: "jaroslavfilo95@gmail.com",
             line3: "(+420) 777 729 301",
           },
@@ -51,6 +52,7 @@ i18n.use(I18nextBrowserLanguageDetector).use(initReactI18next).init(
       en:{
         translation:{
           navigation: {
+            nav0: "HOME",
             nav1: "ABOUT",
             nav2: "PROJECTS",
             nav3: "CONTACT",
@@ -74,7 +76,7 @@ i18n.use(I18nextBrowserLanguageDetector).use(initReactI18next).init(
           },
           contact: {
             header: "Contact information",
-            line1: "Jaroslav Fiľo",
+            line1: "JAROSLAV FIĽO",
             line2: "jaroslavfilo95@gmail.com",
             line3: "(+420) 777 729 301",
           },
@@ -92,6 +94,7 @@ i18n.use(I18nextBrowserLanguageDetector).use(initReactI18next).init(
       cz: {
         translation:{
           navigation: {
+            nav0: "DOMŮ",
             nav1: "O MNĚ",
             nav2: "PROJEKTY",
             nav3: "KONTAKT",
@@ -110,12 +113,12 @@ i18n.use(I18nextBrowserLanguageDetector).use(initReactI18next).init(
             header1: "Nejnovější projekty",
             header2: "Cechovní stránka",
             header3: "Ukázka mapy (probíhá práce)",
-            text1: "Můj úplně první projekt pro mé přátele online hraní. První verze stránky byla vytvořena v čistém HTML/CSS, ale později jsem ji přepracoval v ReactJS. Na této stránce pracuji dodnes.",
+            text1: "Můj úplně první projekt pro mé online přátele. První verze stránky byla vytvořena v čistém HTML/CSS, ale později jsem ji přepracoval v ReactJS. Na této stránce pracuji dodnes.",
             text2: "Tento projekt byl součástí mé žádosti o zaměstnání. Naučilo mě to pracovat s dokumentací OpenLayers a prověřilo mé znalosti JavaScriptu.",
           },
           contact: {
             header: "Kontaktní informace",
-            line1: "Jaroslav Fiľo",
+            line1: "JAROSLAV FIĽO",
             line2: "jaroslavfilo95@gmail.com",
             line3: "(+420) 777 729 301",
           },

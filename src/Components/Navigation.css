@@ -1,7 +1,7 @@
 .navigation-bar-container{
   background-color: rgba(0, 0, 0, 0.548);
   display: flex;
-  justify-content:end ;
+  justify-content: end;
 }
 
 .navigation-bar-container ul{

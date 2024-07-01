@@ -1,5 +1,4 @@
-import { changeLanguage } from "i18next";
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { useTranslation } from "react-i18next";
 import "./LanguageSelector.css";
 
@@ -11,24 +10,45 @@ const languages = [
 
 const LanguageSelector = () => {
   const { i18n } = useTranslation();
+  const [selectedLanguage, setSelectedLanguage] = useState(i18n.language);
 
   const changeLanguage = (lng) => {
     i18n.changeLanguage(lng);
+    setSelectedLanguage(lng);
   };
 
+  useEffect(() => {
+    setSelectedLanguage(i18n.language);
+  }, [i18n.language]);
+
+  const selectedFlag = languages.find(
+    (lng) => lng.code === selectedLanguage
+  )?.flag;
+
   return (
-    <div className="btn-container">
-      {languages.map((lng) => {
-        return (
-          <a
-            className={lng.code === i18n.language ? "selected" : ""}
-            key={lng.code}
-            onClick={() => changeLanguage(lng.code)}
-          >
-            <img src={lng.flag} />
-          </a>
-        );
-      })}
+    <div className="language-menu">
+      <div className="selected-language">
+        {selectedFlag && (
+          <img
+            className="selected-language-flag"
+            src={selectedFlag}
+            alt="selected language flag"
+          />
+        )}
+      </div>
+      <ul className="language-container">
+        {languages.map((lng) => (
+          <li key={lng.code}>
+            <a
+              className={lng.code === selectedLanguage ? "selected" : ""}
+              onClick={() => changeLanguage(lng.code)}
+            >
+              <img src={lng.flag} alt={lng.lang} />
+              <p>{lng.lang} </p>
+            </a>
+          </li>
+        ))}
+      </ul>
     </div>
   );
 };

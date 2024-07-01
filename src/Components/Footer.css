@@ -1,12 +1,6 @@
 .footer{
-  display: flex;
-  flex-direction: column;
-  position: relative;
-  justify-content: center;
-  align-items: center;
   font-family: "Crimson Text", serif;
   bottom: 0;
   font-size: 11px;
-  width: auto;
-  background-color: rgba(0, 0, 0, 0.548);
+  background-color: pink;
 }

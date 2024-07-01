@@ -1,96 +1,22 @@
-.projects-section{
-  display: flex;
-  flex-direction: column;
-  position: relative;
-  justify-content: center;
-  align-items: center;
-  height: auto;
-}
-
-.projects-section h1{
-  display: flex;
-  justify-content: center;
-  font-size: 50px;
-  font-weight: 100;
-  font-family: "Crimson Text", serif;
-  padding: 10px 0px;
-  background-color: rgba(0, 0, 0, 0.548);
-  border-radius: 25px;
-  width: 1000px;
-}
-
-.projects-text{
-  width: 1000px;
-  border-radius: 25px;
-  margin-top: 10vh;
-  background-color: rgba(0, 0, 0, 0.548);
-  color: white;
-}
-
 .projects-container{
-  width: 1000px;
-  display: grid;
-  grid-template-columns: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
 }
-
 .projects-container img{
-  width: 1000px;
-  border-top-left-radius: 25px;
-  border-top-right-radius: 25px;
+  height: 200px;
+  border-radius: 25px;
 }
 
 .projects-container img:hover{
   cursor: pointer;
+  transform: scale(1.1);
+  transition: 0.2s ease-in-out;
 }
 
 .project{
-  background-color: rgba(0, 0, 0, 0.548);
-  margin-bottom: 20px;
-  border-radius: 25px;
+  margin: 20px;
 }
 
-.projects-container h2{
-  padding: 13px 20px;
-  margin: 0;
-  font-family: "Crimson Text", serif;
-}
 
-.projects-container p{
-  margin: 0;
-  padding: 13px 20px;
-  font-size: 20px;
-  line-height: 30px;
-  text-align: justify;
-  font-family: "Crimson Text", serif;
-}
-
-@media(min-width: 640px) and (max-width: 1024px){
-  .projects-section h1{
-    width: 500px;
-  }
-  .projects-container{
-    width: 500px;
-  }
-  .projects-container img{
-    width: 500px;
-  }
-}
-
-@media (min-width: 412px) and (max-width: 640px){
-  .projects-section h1{
-    width: 400px;
-    font-size: 30px;
-  }
-  .projects-container{
-    width: 400px;
-  }
-  .projects-container h2{
-    font-size: 20px;
-  }
-  .projects-container p{
-    font-size: 17px;
-  }
-  .projects-container img{
-    width: 400px;
-  }
-}

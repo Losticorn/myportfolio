@@ -21,7 +21,6 @@ function SkillAnimation() {
 
   return (
     <section ref={skillRef} id="section" className="hidden">
-      <h1>{t("about.header2")}</h1>
       <div className="logos">
         <div className="logo hidden">
           <img src="/free-html-5-1-1175208.webp"></img>
@@ -42,7 +41,7 @@ function SkillAnimation() {
           <img src="Typescript_logo_2020.svg.png"></img>
         </div>
         <div className="logo hidden">
-          <img src="github.png"></img>
+          <img src="github-2.png"></img>
         </div>
         <div className="logo hidden">
           <img src="Git-Icon-1788C.png"></img>

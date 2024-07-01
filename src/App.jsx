@@ -1,21 +1,23 @@
 import "./App.css";
 import React from "react";
-import Hero from "./Components/Hero.jsx";
-import About from "./Components/About.jsx";
-import Projects from "./Components/Projects.jsx";
-import Footer from "./Components/Footer.jsx";
-import BackToTopButton from "./Components/Back-to-top-button.jsx";
-import { Contact } from "./Components/Contact.jsx";
+import NavigationNew from "./Components/navigationNew.jsx";
+import Page from "./Components/page.jsx";
 
 function App() {
   return (
     <>
-      <Hero></Hero>
-      <About></About>
-      <Projects></Projects>
-      <Contact></Contact>
-      <Footer></Footer>
-      <BackToTopButton></BackToTopButton>
+      <div className="content" id="content1">
+        <div className="content" id="content2">
+          <div className="content" id="content3">
+            <div className="content" id="content4">
+              <section>
+                <NavigationNew></NavigationNew>
+                <Page></Page>
+              </section>
+            </div>
+          </div>
+        </div>
+      </div>
     </>
   );
 }

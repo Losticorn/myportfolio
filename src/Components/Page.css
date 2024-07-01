@@ -1,0 +1,27 @@
+.page{
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: aqua;
+}
+
+#page1{
+  left: 0;
+  background-color: blueviolet;
+}
+
+#page2 {
+  left: 100%;
+  background: red;
+}
+
+#page3 {
+  left: 200%;
+  background: blue;
+}
+
+#page4 {
+  left: 300%;
+  background: violet;
+}

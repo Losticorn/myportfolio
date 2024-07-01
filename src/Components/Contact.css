@@ -1,17 +1,8 @@
-.contact-section{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  bottom: 0;
-  background-color: rgba(0, 0, 0, 0.548);
-  padding-bottom: 30px;
-}
-
 .contact-area{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
   width: 1000px;
   padding-top: 30px;
 }
@@ -24,14 +15,8 @@
   text-align: left;
 }
 
-.contact-text h1{
-  font-size: 25px;
-  font-family: "Crimson Text", serif;
-  margin: 0;
-}
-
 .contact-text p{
-  font-size: 18px;
+  font-size: 40px;
   margin: 10px 0px;
   font-family: "Crimson Text", serif;
 }
@@ -60,6 +45,11 @@
   font-size: 18px;
   font-family: "Crimson Text", serif;
 }
+
+::placeholder{
+  color: rgb(201, 199, 199);
+}
+
 
 #submit-btn{
   color: white;

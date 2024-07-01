@@ -1,0 +1,39 @@
+.navigation{
+  position: fixed; 
+  z-index: 1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  /*right: 0;*/
+  margin: 30px 0px;
+  height: 280px;
+  padding: 0;
+  text-align: center;
+}
+
+.navigation li {
+  background-color: red;
+  margin: 30px 0px;
+}
+
+#content1:target .page#page1 {
+  transform: translate(0);
+}
+
+#content2:target .page#page2 {
+  transform: translate(-95%);
+}
+
+#content3:target .page#page3 {
+  transform: translate(-195%);
+}
+
+#content4:target .page#page4 {
+  transform: translate(-295%);
+}
+/*color of navigation part of the home page when you are on different page*/
+#content2:target .page#page1, 
+#content3:target .page#page1,
+#content4:target .page#page1 {
+  background: yellow;
+}
