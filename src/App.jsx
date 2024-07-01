@@ -1,7 +1,7 @@
 import "./App.css";
 import React from "react";
-import NavigationNew from "./Components/navigationNew.jsx";
-import Page from "./Components/page.jsx";
+import NavigationNew from "./components/navigationNew.jsx";
+import Page from "./components/page.jsx";
 
 function App() {
   return (
